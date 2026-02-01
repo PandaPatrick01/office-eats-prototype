@@ -1,0 +1,2353 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Mia Klein",
+      "email": "mia.klein@office-eats.com",
+      "role": "employee",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "3",
+      "name": "Lea Sommer",
+      "email": "lea.sommer@office-eats.com",
+      "role": "manager",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "5c27",
+      "name": "Patrick",
+      "email": "patrick.koch@4kochs.de",
+      "role": "employee",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "fbd9",
+      "name": "Tim",
+      "email": "Tim.Test.@123.com",
+      "role": "employee",
+      "status": "ACTIVE"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Green Bowl",
+      "cuisine": "Healthy",
+      "address": "Marktstr. 12"
+    },
+    {
+      "id": "2",
+      "name": "Pasta Post",
+      "cuisine": "Italian",
+      "address": "Rosenweg 7"
+    },
+    {
+      "id": "3",
+      "name": "Sushi Lab",
+      "cuisine": "Japanese",
+      "address": "Hafenallee 3"
+    },
+    {
+      "id": 4,
+      "name": "Green Fork",
+      "cuisine": "Healthy Business Bowls",
+      "address": "Büropark 5"
+    },
+    {
+      "id": 5,
+      "name": "Bürgerstube Express",
+      "cuisine": "German Classics",
+      "address": "Rathausplatz 2"
+    },
+    {
+      "id": 6,
+      "name": "Mediterraneo Kitchen",
+      "cuisine": "Mediterranean",
+      "address": "Sonnenweg 18"
+    },
+    {
+      "id": 7,
+      "name": "Asia Wok Works",
+      "cuisine": "Asian",
+      "address": "Konradstr. 9"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "1",
+      "restaurantId": 1,
+      "name": "Quinoa Power Bowl",
+      "price": 8.9,
+      "available": true
+    },
+    {
+      "id": "2",
+      "restaurantId": 1,
+      "name": "Avocado Chicken Salad",
+      "price": 9.5,
+      "available": true
+    },
+    {
+      "id": "3",
+      "restaurantId": 1,
+      "name": "Roasted Veggie Wrap",
+      "price": 7.4,
+      "available": true
+    },
+    {
+      "id": "4",
+      "restaurantId": 1,
+      "name": "Sweet Potato Soup",
+      "price": 5.9,
+      "available": true
+    },
+    {
+      "id": "5",
+      "restaurantId": 1,
+      "name": "Protein Smoothie",
+      "price": 4.8,
+      "available": true
+    },
+    {
+      "id": "6",
+      "restaurantId": 1,
+      "name": "Chia Pudding",
+      "price": 3.9,
+      "available": true
+    },
+    {
+      "id": "7",
+      "restaurantId": 2,
+      "name": "Spaghetti Pomodoro",
+      "price": 8.2,
+      "available": true
+    },
+    {
+      "id": "8",
+      "restaurantId": 2,
+      "name": "Penne Arrabbiata",
+      "price": 8.6,
+      "available": true
+    },
+    {
+      "id": "9",
+      "restaurantId": 2,
+      "name": "Lasagna Classica",
+      "price": 10.9,
+      "available": true
+    },
+    {
+      "id": "10",
+      "restaurantId": 2,
+      "name": "Caesar Salad",
+      "price": 6.7,
+      "available": true
+    },
+    {
+      "id": "11",
+      "restaurantId": 2,
+      "name": "Garlic Bread",
+      "price": 3.5,
+      "available": true
+    },
+    {
+      "id": "12",
+      "restaurantId": 2,
+      "name": "Tiramisu Cup",
+      "price": 4.4,
+      "available": true
+    },
+    {
+      "id": "13",
+      "restaurantId": 3,
+      "name": "Salmon Nigiri",
+      "price": 9.2,
+      "available": true
+    },
+    {
+      "id": "14",
+      "restaurantId": 3,
+      "name": "California Roll",
+      "price": 7.9,
+      "available": true
+    },
+    {
+      "id": "15",
+      "restaurantId": 3,
+      "name": "Veggie Maki",
+      "price": 6.1,
+      "available": true
+    },
+    {
+      "id": "16",
+      "restaurantId": 3,
+      "name": "Tuna Poke Bowl",
+      "price": 11.4,
+      "available": true
+    },
+    {
+      "id": "17",
+      "restaurantId": 3,
+      "name": "Miso Soup",
+      "price": 3.2,
+      "available": true
+    },
+    {
+      "id": "18",
+      "restaurantId": 3,
+      "name": "Edamame",
+      "price": 3.8,
+      "available": true
+    },
+    {
+      "id": 19,
+      "restaurantId": 4,
+      "name": "Quinoa Avocado Bowl",
+      "price": 9.4,
+      "available": true
+    },
+    {
+      "id": 20,
+      "restaurantId": 4,
+      "name": "Chicken Teriyaki Bowl",
+      "price": 10.9,
+      "available": true
+    },
+    {
+      "id": 21,
+      "restaurantId": 4,
+      "name": "Falafel Power Bowl",
+      "price": 9.8,
+      "available": true
+    },
+    {
+      "id": 22,
+      "restaurantId": 4,
+      "name": "Lachs Sesam Bowl",
+      "price": 12.5,
+      "available": true
+    },
+    {
+      "id": 23,
+      "restaurantId": 4,
+      "name": "Vegane Süßkartoffel Bowl",
+      "price": 9.6,
+      "available": true
+    },
+    {
+      "id": 24,
+      "restaurantId": 5,
+      "name": "Rinderhacksteak mit Kartoffelpüree",
+      "price": 11.2,
+      "available": true
+    },
+    {
+      "id": 25,
+      "restaurantId": 5,
+      "name": "Hähnchenschnitzel mit Bratkartoffeln",
+      "price": 10.8,
+      "available": true
+    },
+    {
+      "id": 26,
+      "restaurantId": 5,
+      "name": "Käsespätzle",
+      "price": 9.9,
+      "available": true
+    },
+    {
+      "id": 27,
+      "restaurantId": 5,
+      "name": "Maultaschen mit Zwiebelschmelze",
+      "price": 10.2,
+      "available": true
+    },
+    {
+      "id": 28,
+      "restaurantId": 5,
+      "name": "Gemüseeintopf",
+      "price": 8.7,
+      "available": true
+    },
+    {
+      "id": 29,
+      "restaurantId": 6,
+      "name": "Penne Arrabiata",
+      "price": 9.3,
+      "available": true
+    },
+    {
+      "id": 30,
+      "restaurantId": 6,
+      "name": "Hähnchenbrust mit Rosmarinkartoffeln",
+      "price": 11.7,
+      "available": true
+    },
+    {
+      "id": 31,
+      "restaurantId": 6,
+      "name": "Ratatouille mit Couscous",
+      "price": 9.5,
+      "available": true
+    },
+    {
+      "id": 32,
+      "restaurantId": 6,
+      "name": "Doradefilet mit Zitronenreis",
+      "price": 13.4,
+      "available": true
+    },
+    {
+      "id": 33,
+      "restaurantId": 6,
+      "name": "Caprese Bowl",
+      "price": 8.9,
+      "available": true
+    },
+    {
+      "id": 34,
+      "restaurantId": 7,
+      "name": "Gebratene Nudeln mit Gemüse",
+      "price": 8.9,
+      "available": true
+    },
+    {
+      "id": 35,
+      "restaurantId": 7,
+      "name": "Gebratener Reis mit Huhn",
+      "price": 9.5,
+      "available": true
+    },
+    {
+      "id": 36,
+      "restaurantId": 7,
+      "name": "Rotes Thai Curry (vegan)",
+      "price": 10.2,
+      "available": true
+    },
+    {
+      "id": 37,
+      "restaurantId": 7,
+      "name": "Rindfleisch Teriyaki",
+      "price": 11.8,
+      "available": true
+    },
+    {
+      "id": 38,
+      "restaurantId": 7,
+      "name": "Udon Noodles mit Tofu",
+      "price": 9.8,
+      "available": true
+    }
+  ],
+  "timeSlots": [
+    {
+      "id": "1",
+      "label": "11:30–12:00",
+      "start": "11:30",
+      "end": "12:00"
+    },
+    {
+      "id": "2",
+      "label": "12:00–12:30",
+      "start": "12:00",
+      "end": "12:30"
+    },
+    {
+      "id": "3",
+      "label": "12:30–13:00",
+      "start": "12:30",
+      "end": "13:00"
+    },
+    {
+      "id": "4",
+      "label": "13:00–13:30",
+      "start": "13:00",
+      "end": "13:30"
+    }
+  ],
+  "orders": [
+    {
+      "id": "cb95",
+      "userId": null,
+      "restaurantId": 1,
+      "timeSlotId": 1,
+      "status": "CONFIRMED",
+      "createdAt": "2026-01-31T20:59:34.727Z",
+      "subtotal": 9.8,
+      "items": [
+        {
+          "menuItemId": "4",
+          "name": "Sweet Potato Soup",
+          "price": 5.9,
+          "qty": 1
+        },
+        {
+          "menuItemId": "6",
+          "name": "Chia Pudding",
+          "price": 3.9,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "202a",
+      "userId": null,
+      "restaurantId": 1,
+      "timeSlotId": 1,
+      "status": "DELIVERED",
+      "createdAt": "2026-01-31T21:10:19.865Z",
+      "subtotal": 21.4,
+      "items": [
+        {
+          "menuItemId": "4",
+          "name": "Sweet Potato Soup",
+          "price": 5.9,
+          "qty": 2
+        },
+        {
+          "menuItemId": "5",
+          "name": "Protein Smoothie",
+          "price": 4.8,
+          "qty": 2
+        }
+      ],
+      "statusHistory": [
+        {
+          "at": "2026-01-31T21:36:21.004Z",
+          "by": "system",
+          "event": "SENT_TO_KITCHEN"
+        },
+        {
+          "at": "2026-01-31T21:36:22.600Z",
+          "by": "system",
+          "event": "ACCEPTED_BY_KITCHEN"
+        },
+        {
+          "at": "2026-01-31T21:36:24.079Z",
+          "by": "system",
+          "event": "ASSIGNED_TO_DRIVER"
+        },
+        {
+          "at": "2026-01-31T21:36:24.793Z",
+          "by": "system",
+          "event": "OUT_FOR_DELIVERY"
+        },
+        {
+          "at": "2026-01-31T21:36:25.467Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ]
+    },
+    {
+      "id": "1d55",
+      "userId": null,
+      "restaurantId": 2,
+      "timeSlotId": 1,
+      "status": "CONFIRMED",
+      "createdAt": "2026-01-31T21:19:04.317Z",
+      "subtotal": 17.6,
+      "statusHistory": [
+        {
+          "at": "2026-01-31T21:19:04.317Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": "9",
+          "name": "Lasagna Classica",
+          "price": 10.9,
+          "qty": 1
+        },
+        {
+          "menuItemId": "10",
+          "name": "Caesar Salad",
+          "price": 6.7,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "47c1",
+      "userId": "3",
+      "restaurantId": 2,
+      "timeSlotId": 1,
+      "status": "CANCELLED",
+      "createdAt": "2026-01-31T21:21:27.276Z",
+      "subtotal": 10.2,
+      "statusHistory": [
+        {
+          "at": "2026-01-31T21:21:56.445Z",
+          "by": "system",
+          "event": "SENT_TO_KITCHEN"
+        },
+        {
+          "at": "2026-01-31T21:21:58.046Z",
+          "by": "kitchen",
+          "event": "REJECTED_BY_KITCHEN"
+        },
+        {
+          "at": "2026-01-31T21:22:00.511Z",
+          "by": "system",
+          "event": "CANCELLED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": "10",
+          "name": "Caesar Salad",
+          "price": 6.7,
+          "qty": 1
+        },
+        {
+          "menuItemId": "11",
+          "name": "Garlic Bread",
+          "price": 3.5,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "0c6b",
+      "userId": "3",
+      "restaurantId": 2,
+      "timeSlotId": 1,
+      "status": "CANCELLED",
+      "createdAt": "2026-01-31T21:25:12.722Z",
+      "subtotal": 7.9,
+      "statusHistory": [
+        {
+          "at": "2026-02-01T11:14:13.506Z",
+          "by": "employee",
+          "event": "CANCELLED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": "11",
+          "name": "Garlic Bread",
+          "price": 3.5,
+          "qty": 1
+        },
+        {
+          "menuItemId": "12",
+          "name": "Tiramisu Cup",
+          "price": 4.4,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "5ab3",
+      "userId": null,
+      "restaurantId": 6,
+      "timeSlotId": 3,
+      "status": "CONFIRMED",
+      "createdAt": "2026-01-31T21:44:20.439Z",
+      "subtotal": 22.9,
+      "statusHistory": [
+        {
+          "at": "2026-01-31T21:44:20.439Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": 31,
+          "name": "Ratatouille mit Couscous",
+          "price": 9.5,
+          "qty": 1
+        },
+        {
+          "menuItemId": 32,
+          "name": "Doradefilet mit Zitronenreis",
+          "price": 13.4,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "a101",
+      "userId": "1",
+      "restaurantId": 2,
+      "timeSlotId": 2,
+      "status": "DELIVERED",
+      "createdAt": "2025-12-04T12:10:00.000Z",
+      "deliveredAt": "2025-12-04T12:30:00.000Z",
+      "subtotal": 12.6,
+      "statusHistory": [
+        {
+          "at": "2025-12-04T12:10:00.000Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2025-12-04T12:30:00.000Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": "7",
+          "name": "Spaghetti Pomodoro",
+          "price": 8.2,
+          "qty": 1
+        },
+        {
+          "menuItemId": "11",
+          "name": "Garlic Bread",
+          "price": 3.5,
+          "qty": 1
+        },
+        {
+          "menuItemId": "12",
+          "name": "Tiramisu Cup",
+          "price": 4.4,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "a102",
+      "userId": "1",
+      "restaurantId": 1,
+      "timeSlotId": 2,
+      "status": "DELIVERED",
+      "createdAt": "2025-12-11T12:05:00.000Z",
+      "deliveredAt": "2025-12-11T12:30:00.000Z",
+      "subtotal": 15.3,
+      "statusHistory": [
+        {
+          "at": "2025-12-11T12:05:00.000Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2025-12-11T12:30:00.000Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": "1",
+          "name": "Quinoa Power Bowl",
+          "price": 8.9,
+          "qty": 1
+        },
+        {
+          "menuItemId": "5",
+          "name": "Protein Smoothie",
+          "price": 4.8,
+          "qty": 1
+        },
+        {
+          "menuItemId": "6",
+          "name": "Chia Pudding",
+          "price": 3.9,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "a103",
+      "userId": "1",
+      "restaurantId": 3,
+      "timeSlotId": 2,
+      "status": "DELIVERED",
+      "createdAt": "2025-12-18T12:05:00.000Z",
+      "deliveredAt": "2025-12-18T12:30:00.000Z",
+      "subtotal": 17.1,
+      "statusHistory": [
+        {
+          "at": "2025-12-18T12:05:00.000Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2025-12-18T12:30:00.000Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": "13",
+          "name": "Salmon Nigiri",
+          "price": 9.2,
+          "qty": 1
+        },
+        {
+          "menuItemId": "15",
+          "name": "Veggie Maki",
+          "price": 6.1,
+          "qty": 1
+        },
+        {
+          "menuItemId": "17",
+          "name": "Miso Soup",
+          "price": 3.2,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "a104",
+      "userId": "1",
+      "restaurantId": 2,
+      "timeSlotId": 2,
+      "status": "DELIVERED",
+      "createdAt": "2025-12-23T12:05:00.000Z",
+      "deliveredAt": "2025-12-23T12:30:00.000Z",
+      "subtotal": 13.4,
+      "statusHistory": [
+        {
+          "at": "2025-12-23T12:05:00.000Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2025-12-23T12:30:00.000Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": "8",
+          "name": "Penne Arrabbiata",
+          "price": 8.6,
+          "qty": 1
+        },
+        {
+          "menuItemId": "11",
+          "name": "Garlic Bread",
+          "price": 3.5,
+          "qty": 1
+        },
+        {
+          "menuItemId": "12",
+          "name": "Tiramisu Cup",
+          "price": 4.4,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "1ca1",
+      "userId": "1",
+      "restaurantId": 7,
+      "timeSlotId": 3,
+      "status": "DELIVERED",
+      "createdAt": "2026-02-01T10:38:56.917Z",
+      "subtotal": 22,
+      "acceptedTos": true,
+      "acceptedPrivacy": true,
+      "acceptedAt": "2026-02-01T10:38:56.917Z",
+      "statusHistory": [
+        {
+          "at": "2026-02-01T10:38:56.917Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2026-02-01T10:39:48.284Z",
+          "by": "system",
+          "event": "SENT_TO_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T10:39:49.340Z",
+          "by": "system",
+          "event": "ACCEPTED_BY_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T10:39:50.259Z",
+          "by": "system",
+          "event": "ASSIGNED_TO_DRIVER"
+        },
+        {
+          "at": "2026-02-01T10:39:50.901Z",
+          "by": "system",
+          "event": "OUT_FOR_DELIVERY"
+        },
+        {
+          "at": "2026-02-01T10:39:52.031Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": 37,
+          "name": "Rindfleisch Teriyaki",
+          "price": 11.8,
+          "qty": 1
+        },
+        {
+          "menuItemId": 36,
+          "name": "Rotes Thai Curry (vegan)",
+          "price": 10.2,
+          "qty": 1
+        }
+      ],
+      "deliveredAt": "2026-02-01T10:39:52.031Z"
+    },
+    {
+      "id": "9e0b",
+      "userId": "1",
+      "restaurantId": 7,
+      "timeSlotId": 3,
+      "status": "DELIVERED",
+      "createdAt": "2026-02-01T10:40:22.088Z",
+      "subtotal": 21.45,
+      "acceptedTos": true,
+      "acceptedPrivacy": true,
+      "acceptedAt": "2026-02-01T10:40:22.088Z",
+      "statusHistory": [
+        {
+          "at": "2026-02-01T10:40:22.088Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2026-02-01T10:40:25.913Z",
+          "by": "system",
+          "event": "SENT_TO_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T10:40:26.590Z",
+          "by": "system",
+          "event": "ACCEPTED_BY_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T10:40:27.313Z",
+          "by": "system",
+          "event": "ASSIGNED_TO_DRIVER"
+        },
+        {
+          "at": "2026-02-01T10:40:28.017Z",
+          "by": "system",
+          "event": "OUT_FOR_DELIVERY"
+        },
+        {
+          "at": "2026-02-01T10:40:28.754Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": 37,
+          "name": "Rindfleisch Teriyaki",
+          "price": 11.8,
+          "qty": 1
+        },
+        {
+          "menuItemId": 36,
+          "name": "Rotes Thai Curry (vegan)",
+          "price": 10.2,
+          "qty": 1
+        }
+      ],
+      "deliveredAt": "2026-02-01T10:40:28.754Z"
+    },
+    {
+      "id": "56ad",
+      "userId": "1",
+      "restaurantId": 3,
+      "timeSlotId": 3,
+      "status": "CANCELLED",
+      "createdAt": "2026-02-01T10:43:09.855Z",
+      "subtotal": 14.600000000000001,
+      "acceptedTos": true,
+      "acceptedPrivacy": true,
+      "acceptedAt": "2026-02-01T10:43:09.855Z",
+      "statusHistory": [
+        {
+          "at": "2026-02-01T10:43:09.855Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2026-02-01T10:43:15.850Z",
+          "by": "employee",
+          "event": "CANCELLED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": "16",
+          "name": "Tuna Poke Bowl",
+          "price": 11.4,
+          "qty": 1
+        },
+        {
+          "menuItemId": "17",
+          "name": "Miso Soup",
+          "price": 3.2,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "4acc",
+      "userId": "1",
+      "restaurantId": 7,
+      "timeSlotId": 1,
+      "status": "DELIVERED",
+      "createdAt": "2026-02-01T10:43:35.576Z",
+      "subtotal": 21.060000000000002,
+      "acceptedTos": true,
+      "acceptedPrivacy": true,
+      "acceptedAt": "2026-02-01T10:43:35.576Z",
+      "statusHistory": [
+        {
+          "at": "2026-02-01T10:43:35.576Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2026-02-01T10:43:37.917Z",
+          "by": "system",
+          "event": "SENT_TO_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T10:43:38.745Z",
+          "by": "system",
+          "event": "ACCEPTED_BY_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T10:43:39.357Z",
+          "by": "system",
+          "event": "ASSIGNED_TO_DRIVER"
+        },
+        {
+          "at": "2026-02-01T10:43:40.071Z",
+          "by": "system",
+          "event": "OUT_FOR_DELIVERY"
+        },
+        {
+          "at": "2026-02-01T10:43:40.907Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": 38,
+          "name": "Udon Noodles mit Tofu",
+          "price": 9.8,
+          "qty": 1
+        },
+        {
+          "menuItemId": 37,
+          "name": "Rindfleisch Teriyaki",
+          "price": 11.8,
+          "qty": 1
+        }
+      ],
+      "deliveredAt": "2026-02-01T10:43:40.907Z"
+    },
+    {
+      "id": "6f65",
+      "userId": "1",
+      "restaurantId": 7,
+      "timeSlotId": 3,
+      "status": "DELIVERED",
+      "createdAt": "2026-02-01T11:10:55.949Z",
+      "subtotal": 21.060000000000002,
+      "acceptedTos": true,
+      "acceptedPrivacy": true,
+      "acceptedAt": "2026-02-01T11:10:55.949Z",
+      "statusHistory": [
+        {
+          "at": "2026-02-01T11:10:55.949Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2026-02-01T11:10:59.981Z",
+          "by": "system",
+          "event": "SENT_TO_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T11:11:00.695Z",
+          "by": "system",
+          "event": "ACCEPTED_BY_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T11:11:01.520Z",
+          "by": "system",
+          "event": "ASSIGNED_TO_DRIVER"
+        },
+        {
+          "at": "2026-02-01T11:11:02.269Z",
+          "by": "system",
+          "event": "OUT_FOR_DELIVERY"
+        },
+        {
+          "at": "2026-02-01T11:11:04.042Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": 38,
+          "name": "Udon Noodles mit Tofu",
+          "price": 9.8,
+          "qty": 1
+        },
+        {
+          "menuItemId": 37,
+          "name": "Rindfleisch Teriyaki",
+          "price": 11.8,
+          "qty": 1
+        }
+      ],
+      "deliveredAt": "2026-02-01T11:11:04.042Z"
+    },
+    {
+      "id": "3bd4",
+      "userId": "3",
+      "restaurantId": 3,
+      "timeSlotId": 2,
+      "status": "DELIVERED",
+      "createdAt": "2026-02-01T11:17:00.699Z",
+      "subtotal": 25.22,
+      "acceptedTos": true,
+      "acceptedPrivacy": true,
+      "acceptedAt": "2026-02-01T11:17:00.699Z",
+      "statusHistory": [
+        {
+          "at": "2026-02-01T11:17:00.699Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        },
+        {
+          "at": "2026-02-01T11:17:07.106Z",
+          "by": "system",
+          "event": "SENT_TO_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T11:17:08.363Z",
+          "by": "system",
+          "event": "ACCEPTED_BY_KITCHEN"
+        },
+        {
+          "at": "2026-02-01T11:17:09.811Z",
+          "by": "system",
+          "event": "ASSIGNED_TO_DRIVER"
+        },
+        {
+          "at": "2026-02-01T11:17:10.853Z",
+          "by": "system",
+          "event": "OUT_FOR_DELIVERY"
+        },
+        {
+          "at": "2026-02-01T11:17:11.882Z",
+          "by": "system",
+          "event": "DELIVERED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": "16",
+          "name": "Tuna Poke Bowl",
+          "price": 11.4,
+          "qty": 2
+        },
+        {
+          "menuItemId": "17",
+          "name": "Miso Soup",
+          "price": 3.2,
+          "qty": 1
+        }
+      ],
+      "deliveredAt": "2026-02-01T11:17:11.882Z"
+    },
+    {
+      "id": "a16a",
+      "userId": null,
+      "restaurantId": 4,
+      "timeSlotId": 3,
+      "status": "CONFIRMED",
+      "createdAt": "2026-02-01T11:19:17.260Z",
+      "subtotal": 20.553,
+      "acceptedTos": true,
+      "acceptedPrivacy": true,
+      "acceptedAt": "2026-02-01T11:19:17.260Z",
+      "statusHistory": [
+        {
+          "at": "2026-02-01T11:19:17.260Z",
+          "by": "employee",
+          "event": "CONFIRMED"
+        }
+      ],
+      "items": [
+        {
+          "menuItemId": 22,
+          "name": "Lachs Sesam Bowl",
+          "price": 12.5,
+          "qty": 1
+        },
+        {
+          "menuItemId": 23,
+          "name": "Vegane Süßkartoffel Bowl",
+          "price": 9.6,
+          "qty": 1
+        }
+      ]
+    }
+  ],
+  "groupOrders": [
+    {
+      "id": "e87e",
+      "token": "2hcxd6d1",
+      "creatorUserId": "2",
+      "restaurantId": 2,
+      "timeSlotId": 1,
+      "status": "SUBMITTED",
+      "createdAt": "2026-01-31T21:00:08.396Z",
+      "participants": [
+        {
+          "userId": "2",
+          "name": "Jonas Richter",
+          "items": [
+            {
+              "menuItemId": "7",
+              "name": "Spaghetti Pomodoro",
+              "price": 8.2,
+              "qty": 1
+            },
+            {
+              "menuItemId": "10",
+              "name": "Caesar Salad",
+              "price": 6.7,
+              "qty": 1
+            },
+            {
+              "menuItemId": "11",
+              "name": "Garlic Bread",
+              "price": 3.5,
+              "qty": 2
+            },
+            {
+              "menuItemId": "12",
+              "name": "Tiramisu Cup",
+              "price": 4.4,
+              "qty": 1
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalItems": 5,
+        "subtotal": 26.3
+      }
+    },
+    {
+      "id": "f69f",
+      "token": "yyfllcea",
+      "creatorUserId": "1",
+      "restaurantId": 1,
+      "timeSlotId": 1,
+      "status": "OPEN",
+      "createdAt": "2026-01-31T21:47:10.889Z",
+      "participants": [
+        {
+          "userId": "1",
+          "name": "Mia Klein",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "61cc",
+      "token": "mcu4c4bs",
+      "creatorUserId": "1",
+      "restaurantId": 5,
+      "timeSlotId": 2,
+      "status": "OPEN",
+      "createdAt": "2026-02-01T08:50:57.108Z",
+      "participants": [
+        {
+          "userId": "1",
+          "name": "Mia Klein",
+          "items": [
+            {
+              "menuItemId": 24,
+              "name": "Rinderhacksteak mit Kartoffelpüree",
+              "price": 11.2,
+              "qty": 1
+            },
+            {
+              "menuItemId": 25,
+              "name": "Hähnchenschnitzel mit Bratkartoffeln",
+              "price": 10.8,
+              "qty": 1
+            },
+            {
+              "menuItemId": 26,
+              "name": "Käsespätzle",
+              "price": 9.9,
+              "qty": 1
+            },
+            {
+              "menuItemId": 28,
+              "name": "Gemüseeintopf",
+              "price": 8.7,
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "userId": "3",
+          "name": "Lea Sommer",
+          "items": [
+            {
+              "menuItemId": 28,
+              "name": "Gemüseeintopf",
+              "price": 8.7,
+              "qty": 1
+            },
+            {
+              "menuItemId": 27,
+              "name": "Maultaschen mit Zwiebelschmelze",
+              "price": 10.2,
+              "qty": 1
+            },
+            {
+              "menuItemId": 26,
+              "name": "Käsespätzle",
+              "price": 9.9,
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "userId": "2",
+          "name": "Jonas Richter",
+          "items": []
+        }
+      ]
+    }
+  ],
+  "orderItems": [],
+  "invoices": [
+    {
+      "id": 1,
+      "invoiceNumber": "OE-2026-000001",
+      "userId": "3",
+      "orderId": "0c6b",
+      "restaurantId": 2,
+      "createdAt": "2026-01-31T21:26:10.000Z",
+      "dueDate": "2026-02-14T00:00:00.000Z",
+      "currency": "EUR",
+      "subtotal": 7.9,
+      "taxRate": 0.07,
+      "taxAmount": 0.55,
+      "total": 8.45,
+      "lines": [
+        {
+          "name": "Garlic Bread",
+          "unitPrice": 3.5,
+          "qty": 1,
+          "lineTotal": 3.5
+        },
+        {
+          "name": "Tiramisu Cup",
+          "unitPrice": 4.4,
+          "qty": 1,
+          "lineTotal": 4.4
+        }
+      ]
+    },
+    {
+      "id": "fa67",
+      "invoiceNumber": "OE-2026-00202A",
+      "userId": null,
+      "orderId": "202a",
+      "restaurantId": 1,
+      "createdAt": "2026-01-31T21:36:25.499Z",
+      "dueDate": "2026-02-14T21:36:25.499Z",
+      "currency": "EUR",
+      "subtotal": 21.4,
+      "taxRate": 0.07,
+      "taxAmount": 1.5,
+      "total": 22.9,
+      "lines": [
+        {
+          "name": "Sweet Potato Soup",
+          "unitPrice": 5.9,
+          "qty": 2,
+          "lineTotal": 11.8
+        },
+        {
+          "name": "Protein Smoothie",
+          "unitPrice": 4.8,
+          "qty": 2,
+          "lineTotal": 9.6
+        }
+      ]
+    },
+    {
+      "id": "df77",
+      "invoiceNumber": "OE-2026-00A103",
+      "userId": "1",
+      "orderId": "a103",
+      "restaurantId": 3,
+      "createdAt": "2026-01-31T21:54:29.839Z",
+      "dueDate": "2026-02-14T21:54:29.839Z",
+      "currency": "EUR",
+      "subtotal": 18.5,
+      "taxRate": 0.07,
+      "taxAmount": 1.3,
+      "total": 19.8,
+      "lines": [
+        {
+          "name": "Salmon Nigiri",
+          "unitPrice": 9.2,
+          "qty": 1,
+          "lineTotal": 9.2
+        },
+        {
+          "name": "Veggie Maki",
+          "unitPrice": 6.1,
+          "qty": 1,
+          "lineTotal": 6.1
+        },
+        {
+          "name": "Miso Soup",
+          "unitPrice": 3.2,
+          "qty": 1,
+          "lineTotal": 3.2
+        }
+      ]
+    },
+    {
+      "id": "8888",
+      "invoiceNumber": "OE-2026-00A103",
+      "userId": "1",
+      "orderId": "a103",
+      "restaurantId": 3,
+      "createdAt": "2026-01-31T21:54:29.841Z",
+      "dueDate": "2026-02-14T21:54:29.841Z",
+      "currency": "EUR",
+      "subtotal": 18.5,
+      "taxRate": 0.07,
+      "taxAmount": 1.3,
+      "total": 19.8,
+      "lines": [
+        {
+          "name": "Salmon Nigiri",
+          "unitPrice": 9.2,
+          "qty": 1,
+          "lineTotal": 9.2
+        },
+        {
+          "name": "Veggie Maki",
+          "unitPrice": 6.1,
+          "qty": 1,
+          "lineTotal": 6.1
+        },
+        {
+          "name": "Miso Soup",
+          "unitPrice": 3.2,
+          "qty": 1,
+          "lineTotal": 3.2
+        }
+      ]
+    },
+    {
+      "id": "2bf6",
+      "invoiceNumber": "OE-2026-001CA1",
+      "userId": "1",
+      "orderId": "1ca1",
+      "restaurantId": 7,
+      "createdAt": "2026-02-01T10:39:52.039Z",
+      "dueDate": "2026-02-15T10:39:52.039Z",
+      "currency": "EUR",
+      "subtotal": 22,
+      "taxRate": 0.07,
+      "taxAmount": 1.54,
+      "total": 23.54,
+      "lines": [
+        {
+          "name": "Rindfleisch Teriyaki",
+          "unitPrice": 11.8,
+          "qty": 1,
+          "lineTotal": 11.8
+        },
+        {
+          "name": "Rotes Thai Curry (vegan)",
+          "unitPrice": 10.2,
+          "qty": 1,
+          "lineTotal": 10.2
+        }
+      ]
+    },
+    {
+      "id": "838e",
+      "invoiceNumber": "OE-2026-009E0B",
+      "userId": "1",
+      "orderId": "9e0b",
+      "restaurantId": 7,
+      "createdAt": "2026-02-01T10:40:28.764Z",
+      "dueDate": "2026-02-15T10:40:28.764Z",
+      "currency": "EUR",
+      "subtotal": 22,
+      "taxRate": 0.07,
+      "taxAmount": 1.54,
+      "total": 23.54,
+      "lines": [
+        {
+          "name": "Rindfleisch Teriyaki",
+          "unitPrice": 11.8,
+          "qty": 1,
+          "lineTotal": 11.8
+        },
+        {
+          "name": "Rotes Thai Curry (vegan)",
+          "unitPrice": 10.2,
+          "qty": 1,
+          "lineTotal": 10.2
+        }
+      ]
+    },
+    {
+      "id": "2322",
+      "invoiceNumber": "OE-2026-004ACC",
+      "userId": "1",
+      "orderId": "4acc",
+      "restaurantId": 7,
+      "createdAt": "2026-02-01T10:43:40.931Z",
+      "dueDate": "2026-02-15T10:43:40.931Z",
+      "currency": "EUR",
+      "subtotal": 21.06,
+      "taxRate": 0.07,
+      "taxAmount": 1.47,
+      "total": 22.53,
+      "lines": [
+        {
+          "name": "Udon Noodles mit Tofu",
+          "unitPrice": 9.8,
+          "qty": 1,
+          "lineTotal": 9.8
+        },
+        {
+          "name": "Rindfleisch Teriyaki",
+          "unitPrice": 11.8,
+          "qty": 1,
+          "lineTotal": 11.8
+        }
+      ]
+    },
+    {
+      "id": "fe39",
+      "invoiceNumber": "OE-2026-006F65",
+      "userId": "1",
+      "orderId": "6f65",
+      "restaurantId": 7,
+      "createdAt": "2026-02-01T11:11:04.051Z",
+      "dueDate": "2026-02-15T11:11:04.051Z",
+      "currency": "EUR",
+      "rawSubtotal": 21.6,
+      "subsidyPercent": 2.5,
+      "subsidyAmount": 0.54,
+      "subtotal": 21.06,
+      "taxRate": 0.07,
+      "taxAmount": 1.47,
+      "total": 22.53,
+      "lines": [
+        {
+          "name": "Udon Noodles mit Tofu",
+          "unitPrice": 9.8,
+          "qty": 1,
+          "lineTotal": 9.8
+        },
+        {
+          "name": "Rindfleisch Teriyaki",
+          "unitPrice": 11.8,
+          "qty": 1,
+          "lineTotal": 11.8
+        }
+      ]
+    },
+    {
+      "id": "6fe2",
+      "invoiceNumber": "OE-2026-003BD4",
+      "userId": "3",
+      "orderId": "3bd4",
+      "restaurantId": 3,
+      "createdAt": "2026-02-01T11:17:11.891Z",
+      "dueDate": "2026-02-15T11:17:11.891Z",
+      "currency": "EUR",
+      "rawSubtotal": 26,
+      "subsidyPercent": 3,
+      "subsidyAmount": 0.78,
+      "subtotal": 25.22,
+      "taxRate": 0.07,
+      "taxAmount": 1.77,
+      "total": 26.99,
+      "lines": [
+        {
+          "name": "Tuna Poke Bowl",
+          "unitPrice": 11.4,
+          "qty": 2,
+          "lineTotal": 22.8
+        },
+        {
+          "name": "Miso Soup",
+          "unitPrice": 3.2,
+          "qty": 1,
+          "lineTotal": 3.2
+        }
+      ]
+    }
+  ],
+  "invites": [
+    {
+      "id": "1c5e",
+      "email": "patrick.koch@4kochs.de",
+      "token": "65o0ycyf",
+      "status": "USED",
+      "createdAt": "2026-02-01T10:29:42.006Z",
+      "createdByUserId": "3",
+      "usedAt": "2026-02-01T10:30:00.488Z",
+      "usedByUserId": "5c27"
+    },
+    {
+      "id": "95c6",
+      "email": "Jack",
+      "token": "ru19jthg",
+      "status": "USED",
+      "createdAt": "2026-02-01T11:15:03.755Z",
+      "createdByUserId": "3",
+      "usedAt": "2026-02-01T11:16:47.875Z",
+      "usedByUserId": "2de8"
+    },
+    {
+      "id": "510d",
+      "email": "Max.Mustermann@office-eats.com",
+      "token": "wxs67ey1",
+      "status": "USED",
+      "createdAt": "2026-02-01T11:18:40.024Z",
+      "createdByUserId": "3",
+      "usedAt": "2026-02-01T11:18:58.849Z",
+      "usedByUserId": "90c9"
+    },
+    {
+      "id": "b4bb",
+      "email": "Tim.Test.@123.com",
+      "token": "a172z6nq",
+      "status": "USED",
+      "createdAt": "2026-02-01T11:20:45.598Z",
+      "createdByUserId": "3",
+      "usedAt": "2026-02-01T11:21:01.484Z",
+      "usedByUserId": "fbd9"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "7295",
+      "at": "2026-02-01T10:29:42.013Z",
+      "action": "INVITE_CREATED",
+      "actorUserId": "3",
+      "inviteId": "1c5e",
+      "details": {
+        "email": "patrick.koch@4kochs.de"
+      }
+    },
+    {
+      "id": "c3a0",
+      "at": "2026-02-01T10:30:00.493Z",
+      "action": "INVITE_USED",
+      "actorUserId": "5c27",
+      "inviteId": "1c5e",
+      "targetUserId": "5c27",
+      "details": {
+        "email": "patrick.koch@4kochs.de"
+      }
+    },
+    {
+      "id": "e3a0",
+      "at": "2026-02-01T10:30:00.498Z",
+      "action": "USER_REGISTERED",
+      "actorUserId": "5c27",
+      "inviteId": "1c5e",
+      "targetUserId": "5c27",
+      "details": {
+        "email": "patrick.koch@4kochs.de"
+      }
+    },
+    {
+      "id": "f656",
+      "at": "2026-02-01T10:30:39.044Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "1",
+      "details": {
+        "id": "1922",
+        "restaurantId": "1",
+        "isEnabled": true,
+        "subsidyAmount": 0
+      }
+    },
+    {
+      "id": "d5d0",
+      "at": "2026-02-01T10:30:41.538Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "1",
+      "details": {
+        "id": "1922",
+        "restaurantId": "1",
+        "isEnabled": true,
+        "subsidyAmount": 0.1
+      }
+    },
+    {
+      "id": "33a3",
+      "at": "2026-02-01T10:30:42.209Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "1",
+      "details": {
+        "id": "1922",
+        "restaurantId": "1",
+        "isEnabled": true,
+        "subsidyAmount": 0.2
+      }
+    },
+    {
+      "id": "ac5f",
+      "at": "2026-02-01T10:30:42.431Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "1",
+      "details": {
+        "id": "1922",
+        "restaurantId": "1",
+        "isEnabled": true,
+        "subsidyAmount": 0.3
+      }
+    },
+    {
+      "id": "2aba",
+      "at": "2026-02-01T10:30:42.630Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "1",
+      "details": {
+        "id": "1922",
+        "restaurantId": "1",
+        "isEnabled": true,
+        "subsidyAmount": 0.4
+      }
+    },
+    {
+      "id": "f657",
+      "at": "2026-02-01T10:30:42.904Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "1",
+      "details": {
+        "id": "1922",
+        "restaurantId": "1",
+        "isEnabled": true,
+        "subsidyAmount": 0.5
+      }
+    },
+    {
+      "id": "8a26",
+      "at": "2026-02-01T10:30:42.963Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "1",
+      "details": {
+        "id": "1922",
+        "restaurantId": "1",
+        "isEnabled": true,
+        "subsidyAmount": 0.6
+      }
+    },
+    {
+      "id": "83fd",
+      "at": "2026-02-01T10:30:48.707Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "2",
+      "details": {
+        "id": "ed84",
+        "restaurantId": "2",
+        "isEnabled": true,
+        "subsidyAmount": 0
+      }
+    },
+    {
+      "id": "c764",
+      "at": "2026-02-01T10:30:49.298Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "3",
+      "details": {
+        "id": "15bc",
+        "restaurantId": "3",
+        "isEnabled": true,
+        "subsidyAmount": 0
+      }
+    },
+    {
+      "id": "7dc8",
+      "at": "2026-02-01T10:30:50.196Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 4,
+      "details": {
+        "id": "1dbd",
+        "restaurantId": 4,
+        "isEnabled": true,
+        "subsidyAmount": 0
+      }
+    },
+    {
+      "id": "6e2a",
+      "at": "2026-02-01T10:30:50.796Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 5,
+      "details": {
+        "id": "70b0",
+        "restaurantId": 5,
+        "isEnabled": true,
+        "subsidyAmount": 0
+      }
+    },
+    {
+      "id": "05e3",
+      "at": "2026-02-01T10:30:51.620Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 6,
+      "details": {
+        "id": "e6cf",
+        "restaurantId": 6,
+        "isEnabled": true,
+        "subsidyAmount": 0
+      }
+    },
+    {
+      "id": "0d71",
+      "at": "2026-02-01T10:30:52.796Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0
+      }
+    },
+    {
+      "id": "9d81",
+      "at": "2026-02-01T10:39:13.978Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 0
+      }
+    },
+    {
+      "id": "09e8",
+      "at": "2026-02-01T10:39:18.628Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 0
+      }
+    },
+    {
+      "id": "c940",
+      "at": "2026-02-01T10:39:24.200Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 2
+      }
+    },
+    {
+      "id": "306e",
+      "at": "2026-02-01T10:39:27.072Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 3
+      }
+    },
+    {
+      "id": "5bc3",
+      "at": "2026-02-01T10:39:27.561Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 4
+      }
+    },
+    {
+      "id": "b4b2",
+      "at": "2026-02-01T10:39:28.933Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 3
+      }
+    },
+    {
+      "id": "6659",
+      "at": "2026-02-01T10:39:30.878Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 2
+      }
+    },
+    {
+      "id": "8f30",
+      "at": "2026-02-01T10:39:35.493Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 2.5
+      }
+    },
+    {
+      "id": "823f",
+      "at": "2026-02-01T10:42:33.892Z",
+      "action": "USER_ACTIVATED",
+      "actorUserId": "3",
+      "targetUserId": "5c27"
+    },
+    {
+      "id": "1f76",
+      "at": "2026-02-01T11:14:30.779Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 3
+      }
+    },
+    {
+      "id": "a15b",
+      "at": "2026-02-01T11:14:31.865Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 2
+      }
+    },
+    {
+      "id": "1f53",
+      "at": "2026-02-01T11:14:32.568Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 7,
+      "details": {
+        "id": "e08c",
+        "restaurantId": 7,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 3
+      }
+    },
+    {
+      "id": "3d66",
+      "at": "2026-02-01T11:14:36.455Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 5,
+      "details": {
+        "id": "70b0",
+        "restaurantId": 5,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 0
+      }
+    },
+    {
+      "id": "8064",
+      "at": "2026-02-01T11:14:38.352Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 5,
+      "details": {
+        "id": "70b0",
+        "restaurantId": 5,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 5
+      }
+    },
+    {
+      "id": "b3a7",
+      "at": "2026-02-01T11:14:40.556Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 6,
+      "details": {
+        "id": "e6cf",
+        "restaurantId": 6,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 4
+      }
+    },
+    {
+      "id": "4a34",
+      "at": "2026-02-01T11:14:42.719Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": 4,
+      "details": {
+        "id": "1dbd",
+        "restaurantId": 4,
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 7
+      }
+    },
+    {
+      "id": "2024",
+      "at": "2026-02-01T11:14:45.118Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "3",
+      "details": {
+        "id": "15bc",
+        "restaurantId": "3",
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 3
+      }
+    },
+    {
+      "id": "9f19",
+      "at": "2026-02-01T11:14:46.765Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "2",
+      "details": {
+        "id": "ed84",
+        "restaurantId": "2",
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 0
+      }
+    },
+    {
+      "id": "bd47",
+      "at": "2026-02-01T11:14:50.629Z",
+      "action": "RESTAURANT_SETTING_UPDATED",
+      "actorUserId": "3",
+      "targetRestaurantId": "2",
+      "details": {
+        "id": "ed84",
+        "restaurantId": "2",
+        "isEnabled": true,
+        "subsidyAmount": 0,
+        "subsidyPercent": 0
+      }
+    },
+    {
+      "id": "1ff8",
+      "at": "2026-02-01T11:15:03.760Z",
+      "action": "INVITE_CREATED",
+      "actorUserId": "3",
+      "inviteId": "95c6",
+      "details": {
+        "email": "Jack"
+      }
+    },
+    {
+      "id": "de18",
+      "at": "2026-02-01T11:16:47.880Z",
+      "action": "INVITE_USED",
+      "actorUserId": "2de8",
+      "inviteId": "95c6",
+      "targetUserId": "2de8",
+      "details": {
+        "email": "Jack"
+      }
+    },
+    {
+      "id": "0ec2",
+      "at": "2026-02-01T11:16:47.886Z",
+      "action": "USER_REGISTERED",
+      "actorUserId": "2de8",
+      "inviteId": "95c6",
+      "targetUserId": "2de8",
+      "details": {
+        "email": "Jack"
+      }
+    },
+    {
+      "id": "6eb2",
+      "at": "2026-02-01T11:17:41.855Z",
+      "action": "USER_DELETED",
+      "actorUserId": "3",
+      "targetUserId": "2"
+    },
+    {
+      "id": "7e1c",
+      "at": "2026-02-01T11:17:43.033Z",
+      "action": "USER_DELETED",
+      "actorUserId": "3",
+      "targetUserId": "2"
+    },
+    {
+      "id": "d12e",
+      "at": "2026-02-01T11:18:15.320Z",
+      "action": "USER_ACTIVATED",
+      "actorUserId": "3",
+      "targetUserId": "2de8"
+    },
+    {
+      "id": "751a",
+      "at": "2026-02-01T11:18:24.618Z",
+      "action": "USER_DELETED",
+      "actorUserId": "3",
+      "targetUserId": "2de8"
+    },
+    {
+      "id": "ad83",
+      "at": "2026-02-01T11:18:40.051Z",
+      "action": "INVITE_CREATED",
+      "actorUserId": "3",
+      "inviteId": "510d",
+      "details": {
+        "email": "Max.Mustermann@office-eats.com"
+      }
+    },
+    {
+      "id": "0aeb",
+      "at": "2026-02-01T11:18:58.855Z",
+      "action": "INVITE_USED",
+      "actorUserId": "90c9",
+      "inviteId": "510d",
+      "targetUserId": "90c9",
+      "details": {
+        "email": "Max.Mustermann@office-eats.com"
+      }
+    },
+    {
+      "id": "1626",
+      "at": "2026-02-01T11:18:58.860Z",
+      "action": "USER_REGISTERED",
+      "actorUserId": "90c9",
+      "inviteId": "510d",
+      "targetUserId": "90c9",
+      "details": {
+        "email": "Max.Mustermann@office-eats.com"
+      }
+    },
+    {
+      "id": "5635",
+      "at": "2026-02-01T11:19:28.227Z",
+      "action": "USER_DELETED",
+      "actorUserId": "3",
+      "targetUserId": "2de8"
+    },
+    {
+      "id": "7134",
+      "at": "2026-02-01T11:19:32.475Z",
+      "action": "USER_DELETED",
+      "actorUserId": "3",
+      "targetUserId": "90c9"
+    },
+    {
+      "id": "b08f",
+      "at": "2026-02-01T11:19:34.660Z",
+      "action": "USER_DELETED",
+      "actorUserId": "3",
+      "targetUserId": "2"
+    },
+    {
+      "id": "5e83",
+      "at": "2026-02-01T11:20:45.616Z",
+      "action": "INVITE_CREATED",
+      "actorUserId": "3",
+      "inviteId": "b4bb",
+      "details": {
+        "email": "Tim.Test.@123.com"
+      }
+    },
+    {
+      "id": "ff6e",
+      "at": "2026-02-01T11:21:01.489Z",
+      "action": "INVITE_USED",
+      "actorUserId": "fbd9",
+      "inviteId": "b4bb",
+      "targetUserId": "fbd9",
+      "details": {
+        "email": "Tim.Test.@123.com"
+      }
+    },
+    {
+      "id": "b1fa",
+      "at": "2026-02-01T11:21:01.494Z",
+      "action": "USER_REGISTERED",
+      "actorUserId": "fbd9",
+      "inviteId": "b4bb",
+      "targetUserId": "fbd9",
+      "details": {
+        "email": "Tim.Test.@123.com"
+      }
+    },
+    {
+      "id": "183a",
+      "at": "2026-02-01T11:21:41.987Z",
+      "action": "USER_ACTIVATED",
+      "actorUserId": "3",
+      "targetUserId": "fbd9"
+    }
+  ],
+  "monthlyStatements": [
+    {
+      "id": 1,
+      "statementNumber": "MS-2025-12-0001",
+      "userId": "1",
+      "month": "2025-12",
+      "periodStart": "2025-12-01T00:00:00.000Z",
+      "periodEnd": "2025-12-31T23:59:59.999Z",
+      "createdAt": "2026-01-02T09:00:00.000Z",
+      "currency": "EUR",
+      "subtotal": 58.4,
+      "taxRate": 0.07,
+      "taxAmount": 4.09,
+      "total": 62.49,
+      "orderCount": 4,
+      "orders": [
+        {
+          "orderId": "a101",
+          "restaurantName": "Pasta Post",
+          "deliveredAt": "2025-12-04T12:30:00.000Z",
+          "subtotal": 12.6,
+          "taxAmount": 0.88,
+          "total": 13.48
+        },
+        {
+          "orderId": "a102",
+          "restaurantName": "Green Bowl",
+          "deliveredAt": "2025-12-11T12:30:00.000Z",
+          "subtotal": 15.3,
+          "taxAmount": 1.07,
+          "total": 16.37
+        },
+        {
+          "orderId": "a103",
+          "restaurantName": "Sushi Lab",
+          "deliveredAt": "2025-12-18T12:30:00.000Z",
+          "subtotal": 17.1,
+          "taxAmount": 1.2,
+          "total": 18.3
+        },
+        {
+          "orderId": "a104",
+          "restaurantName": "Pasta Post",
+          "deliveredAt": "2025-12-23T12:30:00.000Z",
+          "subtotal": 13.4,
+          "taxAmount": 0.94,
+          "total": 14.34
+        }
+      ]
+    },
+    {
+      "id": "777f",
+      "statementNumber": "MS-2026-01-0001",
+      "userId": "1",
+      "month": "2026-01",
+      "periodStart": "2026-01-01T00:00:00.000Z",
+      "periodEnd": "2026-01-31T23:59:59.999Z",
+      "createdAt": "2026-02-01T08:47:47.711Z",
+      "currency": "EUR",
+      "subtotal": 0,
+      "taxRate": 0.07,
+      "taxAmount": 0,
+      "total": 0,
+      "orderCount": 0,
+      "orders": []
+    },
+    {
+      "id": "f63f",
+      "statementNumber": "MS-2026-02-0003",
+      "userId": "3",
+      "month": "2026-02",
+      "periodStart": "2026-02-01T00:00:00.000Z",
+      "periodEnd": "2026-02-28T23:59:59.999Z",
+      "createdAt": "2026-02-01T08:53:12.831Z",
+      "currency": "EUR",
+      "subtotal": 0,
+      "taxRate": 0.07,
+      "taxAmount": 0,
+      "total": 0,
+      "orderCount": 0,
+      "orders": []
+    },
+    {
+      "id": "58f0",
+      "statementNumber": "MS-2026-02-0001",
+      "userId": "1",
+      "month": "2026-02",
+      "periodStart": "2026-02-01T00:00:00.000Z",
+      "periodEnd": "2026-02-28T23:59:59.999Z",
+      "createdAt": "2026-02-01T11:11:19.055Z",
+      "currency": "EUR",
+      "subtotal": 85.02,
+      "taxRate": 0.07,
+      "taxAmount": 5.95,
+      "total": 90.97,
+      "orderCount": 4,
+      "orders": [
+        {
+          "orderId": "1ca1",
+          "restaurantName": "#7",
+          "deliveredAt": "2026-02-01T10:39:52.031Z",
+          "subtotal": 21.45,
+          "taxAmount": 1.5,
+          "total": 22.95
+        },
+        {
+          "orderId": "9e0b",
+          "restaurantName": "#7",
+          "deliveredAt": "2026-02-01T10:40:28.754Z",
+          "subtotal": 21.45,
+          "taxAmount": 1.5,
+          "total": 22.95
+        },
+        {
+          "orderId": "4acc",
+          "restaurantName": "#7",
+          "deliveredAt": "2026-02-01T10:43:40.907Z",
+          "subtotal": 21.06,
+          "taxAmount": 1.47,
+          "total": 22.53
+        },
+        {
+          "orderId": "6f65",
+          "restaurantName": "#7",
+          "deliveredAt": "2026-02-01T11:11:04.042Z",
+          "subtotal": 21.06,
+          "taxAmount": 1.47,
+          "total": 22.53
+        }
+      ]
+    }
+  ],
+  "restaurantSettings": [
+    {
+      "id": "1922",
+      "restaurantId": "1",
+      "isEnabled": true,
+      "subsidyAmount": 0.6
+    },
+    {
+      "id": "ed84",
+      "restaurantId": "2",
+      "isEnabled": true,
+      "subsidyAmount": 0,
+      "subsidyPercent": 0
+    },
+    {
+      "id": "15bc",
+      "restaurantId": "3",
+      "isEnabled": true,
+      "subsidyAmount": 0,
+      "subsidyPercent": 3
+    },
+    {
+      "id": "1dbd",
+      "restaurantId": 4,
+      "isEnabled": true,
+      "subsidyAmount": 0,
+      "subsidyPercent": 7
+    },
+    {
+      "id": "70b0",
+      "restaurantId": 5,
+      "isEnabled": true,
+      "subsidyAmount": 0,
+      "subsidyPercent": 5
+    },
+    {
+      "id": "e6cf",
+      "restaurantId": 6,
+      "isEnabled": true,
+      "subsidyAmount": 0,
+      "subsidyPercent": 4
+    },
+    {
+      "id": "e08c",
+      "restaurantId": 7,
+      "isEnabled": true,
+      "subsidyAmount": 0,
+      "subsidyPercent": 3
+    }
+  ]
+}
